@@ -1,6 +1,6 @@
 # captcha-validation-core-php
 
-#There are two Basic Function in Captcha File Display and create_image function. The Display Function show Image and Create_image Function all the setting are
+There are two Basic Function in Captcha File Display and create_image function. The Display Function show Image and Create_image Function all the setting are
 
 1. Set the lenght of no. of Chracter that show in captcha
 2. color of text and size of box adjust
