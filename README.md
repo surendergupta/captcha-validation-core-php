@@ -7,13 +7,13 @@
 3. Create a table of captcha to store information that validate is valid captcha
 4. set expiration time of captcha
 
-#Table name is captcha
+Table name is captcha
 
-#Stucture of Captcha table are
-  Field 	          Type 	              Null 	  Key 	Default 	Extra 	
-  captcha_id 	      int(10)unsigned	NO 	    PRI 	NULL	    auto_increment
-  captcha_time 	    int(10)unsigned	    NO 		        NULL	
-  ip_address 	      varchar(16)	        NO 		          0	
-  word 	            varchar(20)	        NO 	    MUL 	NULL	
+Stucture of Captcha table are
+ 
+  captcha_id 	      int(10)unsigned	NO 	    PRI 	NULL	    auto_increment,
+  captcha_time 	    int(10)unsigned	    NO 		        NULL,	
+  ip_address 	      varchar(16)	        NO 		          0,	
+  word 	            varchar(20)	        NO 	    MUL 	NULL,	
 
 
